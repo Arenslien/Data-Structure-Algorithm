@@ -1,6 +1,6 @@
 package RecursiveAndBacktracking;
 
-public class hanoi {
+public class Q01_Hanoi {
   static void towerOfHanoi(int n, int start, int mid, int end) {
     if(n == 1) {
       System.out.println(1 + "번째 원반 -> " + end + "번째 막대로");
